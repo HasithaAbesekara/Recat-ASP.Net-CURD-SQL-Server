@@ -39,7 +39,7 @@ export default function RegisterForm() {
 
         <div className="text-center my-4">OR</div>
 
-        <div className="flex justify-center space-x-4">
+        {/* <div className="flex justify-center space-x-4">
           <button className="p-2 border rounded-full hover:bg-gray-200 transition">
             <FcGoogle size={24} />
           </button>
@@ -49,7 +49,7 @@ export default function RegisterForm() {
           <button className="p-2 border rounded-full text-gray-900 hover:bg-gray-200 transition">
             <FaGithub size={24} />
           </button>
-        </div>
+        </div> */}
 
         <p className="text-center mt-4">
           Already have an account?
