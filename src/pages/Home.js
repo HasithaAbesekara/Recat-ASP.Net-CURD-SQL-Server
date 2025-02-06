@@ -109,16 +109,23 @@ const Home = () => {
                   <td className="border border-purple-500 px-4 py-2 space-x-2">
                     <Button
                       onClick={() => navigate(`/edit/${user.id}`)}
-                      className="bg-purple-600 hover:bg-purple-700"
+                      className="bg-purple-400 hover:bg-purple-700"
                     >
                       Edit
                     </Button>
                     <Button
                       onClick={() => handleDelete(user.id)}
-                      className="bg-gray-600 hover:bg-gray-700"
+                      className="bg-red-400 hover:bg-red-700"
                     >
                       Delete
                     </Button>
+                    {/* <button
+                      type={type}
+                      onClick={onClick}
+                      className={`text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center ${className}`}
+                    >
+                      Delete
+                    </button> */}
                   </td>
                 </tr>
               ))}
